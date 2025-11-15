@@ -1,0 +1,11 @@
+name: clt-entropy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - plotly
+  - ipywidgets
+  - jupyter
+  - nbformat=4.2.0
