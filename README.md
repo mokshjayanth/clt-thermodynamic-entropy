@@ -1,7 +1,6 @@
 # Thermodynamic Entropy Through the Central Limit Theorem
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/clt-thermodynamic-entropy/blob/main/notebooks/molecular_distribution_demo.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_USERNAME/clt-thermodynamic-entropy/HEAD?filepath=notebooks/molecular_distribution_demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mokshjayanth/clt-thermodynamic-entropy/blob/main/notebooks/molecular_distribution_demo.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
@@ -19,13 +18,10 @@ This repository contains an interactive Jupyter notebook that models N ink molec
 
 This explains **why thermodynamic systems appear deterministic** despite being fundamentally statistical!
 
-## 🚀 Quick Start (No Installation Required)
+## Quick Start (No Installation Required)
 
-### Option 1: Google Colab (Recommended)
+### Google Colab
 Click the "Open in Colab" badge above to run the notebook instantly in your browser with zero setup.
-
-### Option 2: Binder
-Click the "Launch Binder" badge to run in a temporary cloud environment.
 
 ## Local Installation
 
