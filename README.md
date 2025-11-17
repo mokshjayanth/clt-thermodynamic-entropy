@@ -158,9 +158,9 @@ If you use this code in your research or teaching, please cite:
 
 ```bibtex
 @article{GR2025thermodynamic,
-  author = {GR, Moksh Jayanth},
+  author = {Moksh Jayanth GR},
   title = {Understanding Thermodynamic Entropy Through the Central Limit Theorem: A Pedagogical Approach},
-  journal = {American Journal of Physics},
+  journal = {Physical Review Physics Education Research},
   year = {2025},
   note = {Submitted}
 }
