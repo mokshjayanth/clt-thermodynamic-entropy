@@ -178,19 +178,6 @@ Contributions are welcome! Please feel free to:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
-
-**[Moksh Jayanth GR]**
-- Institution: BMS College of Engineering, Bengaluru
-- Email: [mokshjayanth.email@example.com]
-- GitHub: [@mokshjayanth](https://github.com/mokshjayanth)
-
-## Acknowledgments
-
-- BMS College of Engineering for institutional support
-- The open-source scientific Python community
-- Reviewers and colleagues who provided feedback
-
 ---
 
 **Note**: This is a pedagogical demonstration. For production thermodynamic simulations, consider specialized packages like LAMMPS, GROMACS, or ASE.
