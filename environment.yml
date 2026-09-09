@@ -2,10 +2,11 @@ name: clt-entropy
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
-  - numpy
-  - scipy
-  - plotly
-  - ipywidgets
+  - python=3.11
+  - numpy>=1.21
+  - scipy>=1.7
+  - plotly>=5.0
+  - ipywidgets>=7.6
   - jupyter
-  - nbformat=4.2.0
+  - notebook>=6.4
+  - nbformat>=5.2

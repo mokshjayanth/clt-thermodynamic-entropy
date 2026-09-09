@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mokshjayanth/clt-thermodynamic-entropy/blob/main/notebooks/molecular_distribution_demo.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
 An interactive pedagogical demonstration showing how the Central Limit Theorem explains the emergence of thermodynamic behavior in macroscopic systems.
 
@@ -26,7 +26,7 @@ Click the "Open in Colab" badge above to run the notebook instantly in your brow
 ## Local Installation
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.9 or higher (tested on 3.11 and 3.14)
 - pip or conda
 
 ### Setup
@@ -46,12 +46,9 @@ jupyter notebook notebooks/molecular_distribution_demo.ipynb
 ### Using Conda (Alternative)
 
 ```bash
-# Create conda environment
-conda create -n clt-entropy python=3.8
+# Create the environment from the provided specification
+conda env create -f environment.yml
 conda activate clt-entropy
-
-# Install dependencies
-pip install -r requirements.txt
 
 # Launch notebook
 jupyter notebook notebooks/molecular_distribution_demo.ipynb
