@@ -138,7 +138,9 @@ All visualizations use Plotly for publication-quality interactive graphics.
 ### Computational Methods
 - **Exact Binomial**: Computed for N ≤ 10⁶ using log-space arithmetic
 - **Normal Approximation**: Applied for N > 10⁶ to avoid overflow
-- **Stirling's Approximation**: Used for factorial calculations in large N regime
+- **Log-Gamma Factorials**: `scipy.special.gammaln` gives machine-precision log(n!) at every N
+  (the Stirling series is derived in the notebook for insight, but is not used for the plotted values,
+  since dropping its 1/(12n) term inflates the total probability by ~0.25% at N = 10²)
 
 ### Performance
 - Optimized for real-time interactivity
