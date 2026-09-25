@@ -8,3 +8,16 @@ title: "Thermodynamic Entropy Through the Central Limit Theorem"
 version: 1.0.0
 date-released: 2025-11-16
 url: "https://github.com/mokshjayanth/clt-thermodynamic-entropy"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "GR"
+      given-names: "Moksh Jayanth"
+      orcid: "https://orcid.org/0009-0005-2705-7984"
+  title: "Understanding Thermodynamic Entropy Through the Central Limit Theorem: A Pedagogical Framework"
+  year: 2026
+  doi: "10.5281/zenodo.22967985"
+  url: "https://doi.org/10.5281/zenodo.22967985"
+  publisher:
+    name: "Zenodo"
+  notes: "Preprint. Not peer reviewed."

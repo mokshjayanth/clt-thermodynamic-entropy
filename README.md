@@ -2,6 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mokshjayanth/clt-thermodynamic-entropy/blob/main/notebooks/molecular_distribution_demo.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22967985.svg)](https://doi.org/10.5281/zenodo.22967985)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
 An interactive pedagogical demonstration showing how the Central Limit Theorem explains the emergence of thermodynamic behavior in macroscopic systems.
@@ -60,7 +61,7 @@ jupyter notebook notebooks/molecular_distribution_demo.ipynb
 - **Adjustable System Size**: From 10² to 10²³ molecules (1 mole)
 - **Multiple Modes**: 
   - Smooth curves (Normal PDF approximation)
-  - Discrete bars (Exact Binomial PMF for N ≤ 10⁶)
+  - Discrete bars (Exact Binomial PMF for N ≤ 10⁶; every discrete plot is the exact PMF)
   - Combined view with entropy overlay
 - **Real-time Updates**: Interactive sliders and dropdowns
 - **Statistical Analysis**: Automatic computation of key metrics
@@ -151,24 +152,27 @@ All visualizations use Plotly for publication-quality interactive graphics.
 
 ## Citation
 
-This code accompanies the manuscript:
+This code accompanies the preprint:
 
 **"Understanding Thermodynamic Entropy Through the Central Limit Theorem: A Pedagogical Framework"**
 
 If you use this code in your research or teaching, please cite:
 
 ```bibtex
-@unpublished{GR2025thermodynamic,
-  author = {Moksh Jayanth GR},
-  title  = {Understanding Thermodynamic Entropy Through the Central Limit Theorem: A Pedagogical Framework},
-  year   = {2025},
-  note   = {Manuscript in preparation}
+@misc{GR2026thermodynamic,
+  author    = {Moksh Jayanth GR},
+  title     = {Understanding Thermodynamic Entropy Through the Central Limit Theorem: A Pedagogical Framework},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22967985},
+  url       = {https://doi.org/10.5281/zenodo.22967985},
+  note      = {Preprint}
 }
 ```
 
-> **Status:** The accompanying manuscript is in preparation. This entry will be
-> updated with the preprint DOI, and in due course the journal reference.
-> Please cite the software via [`CITATION.cff`](CITATION.cff) in the meantime.
+> **Status:** Preprint, deposited on Zenodo — [10.5281/zenodo.22967985](https://doi.org/10.5281/zenodo.22967985).
+> Not peer reviewed. This entry will be updated if and when the manuscript is
+> published in a journal.
 
 ## Contributing
 
