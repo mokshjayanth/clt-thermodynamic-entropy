@@ -14,7 +14,7 @@ This repository contains an interactive Jupyter notebook that models N ink molec
 
 - For small systems (N ~ 10²): Distribution is noticeably spread out
 - For medium systems (N ~ 10⁶): Distribution narrows significantly  
-- For macroscopic systems (N ~ 10²³): Relative width ~ 10⁻¹² → essentially deterministic
+- For macroscopic systems (N ~ 10²³): Relative width σ/μ ~ 3 × 10⁻¹² → essentially deterministic
 
 This explains **why thermodynamic systems appear deterministic** despite being fundamentally statistical!
 
@@ -108,7 +108,7 @@ This work demonstrates that:
 
 ### Key Result
 
-For N = 10²³ (one mole), the relative width is ~10⁻¹² %, making deviations from uniform distribution essentially unobservable. This explains the apparent determinism of macroscopic thermodynamics!
+For N = 10²³ (one mole), the relative width is σ/μ ≈ 3.16 × 10⁻¹² (that is, ~3 × 10⁻¹⁰ percent), making deviations from uniform distribution essentially unobservable. This explains the apparent determinism of macroscopic thermodynamics!
 
 ## Repository Structure
 
@@ -116,10 +116,12 @@ For N = 10²³ (one mole), the relative width is ~10⁻¹² %, making deviations
 clt-thermodynamic-entropy/
 ├── README.md                              # This file
 ├── LICENSE                                # MIT License
-├── requirements.txt                       # Python dependencies
+├── CITATION.cff                           # Software citation metadata
+├── requirements.txt                       # Python dependencies (pip)
+├── environment.yml                        # Conda environment specification
 ├── notebooks/
 │   └── molecular_distribution_demo.ipynb  # Main interactive notebook
-└── .gitignore                            # Git ignore rules
+└── .gitignore                             # Git ignore rules
 ```
 
 ## Example Visualizations
@@ -149,21 +151,24 @@ All visualizations use Plotly for publication-quality interactive graphics.
 
 ## Citation
 
-This code accompanies the research paper:
+This code accompanies the manuscript:
 
-**"Understanding Thermodynamic Entropy Through the Central Limit Theorem: A Pedagogical Approach"**
+**"Understanding Thermodynamic Entropy Through the Central Limit Theorem: A Pedagogical Framework"**
 
 If you use this code in your research or teaching, please cite:
 
 ```bibtex
-@article{GR2025thermodynamic,
+@unpublished{GR2025thermodynamic,
   author = {Moksh Jayanth GR},
-  title = {Understanding Thermodynamic Entropy Through the Central Limit Theorem: A Pedagogical Approach},
-  journal = {Physical Review Physics Education Research},
-  year = {2025},
-  note = {Submitted}
+  title  = {Understanding Thermodynamic Entropy Through the Central Limit Theorem: A Pedagogical Framework},
+  year   = {2025},
+  note   = {Manuscript in preparation}
 }
 ```
+
+> **Status:** The accompanying manuscript is in preparation. This entry will be
+> updated with the preprint DOI, and in due course the journal reference.
+> Please cite the software via [`CITATION.cff`](CITATION.cff) in the meantime.
 
 ## Contributing
 
